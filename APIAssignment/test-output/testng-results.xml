@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-02T18:39:10 IST" name="Default suite" finished-at="2024-05-02T18:39:16 IST" duration-ms="5919">
+    <groups>
+    </groups>
+    <test started-at="2024-05-02T18:39:10 IST" name="Default test" finished-at="2024-05-02T18:39:16 IST" duration-ms="5919">
+      <class name="AnanayMahajan.APIAssignment.userEndPoints">
+        <test-method signature="getBookDetails()[pri:0, instance:AnanayMahajan.APIAssignment.userEndPoints@35d019a3]" started-at="2024-05-02T18:39:10 IST" name="getBookDetails" finished-at="2024-05-02T18:39:15 IST" duration-ms="5088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBookDetails -->
+        <test-method signature="postBookDetails()[pri:0, instance:AnanayMahajan.APIAssignment.userEndPoints@35d019a3]" started-at="2024-05-02T18:39:15 IST" name="postBookDetails" finished-at="2024-05-02T18:39:16 IST" duration-ms="760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postBookDetails -->
+      </class> <!-- AnanayMahajan.APIAssignment.userEndPoints -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
