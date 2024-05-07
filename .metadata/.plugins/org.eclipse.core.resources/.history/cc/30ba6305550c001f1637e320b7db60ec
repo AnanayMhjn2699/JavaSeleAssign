@@ -1,0 +1,36 @@
+package AnanayMahajan.Assignment;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class StringInverter {
+	public static void main(String[] args) {
+		String s="HEllo World";
+		String s1=invertString(s);
+		System.out.println(s1);
+		
+		
+		
+		//pattern problem:
+		for(int i=5;i>0;i--) {
+			for(int j=i;j>0;j--) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+		
+		//Sorting the elements of hashMap
+		HashMap<int,int> m=new HashMap<int,int>();
+	}
+
+	private static String invertString(String s) {
+		// TODO Auto-generated method stub
+		String[] list=s.split(" ");
+		String s1="";
+		for(String i:list) {
+			StringBuffer sbr = new StringBuffer(i);
+			s1=s1+sbr.reverse()+" ";
+		}
+		return s1;
+	}
+}
