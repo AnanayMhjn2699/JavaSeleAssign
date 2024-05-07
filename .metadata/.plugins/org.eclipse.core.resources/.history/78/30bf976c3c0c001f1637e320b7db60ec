@@ -1,0 +1,25 @@
+package AnanayMahajan.APIAssignment;
+
+import static io.restassured.RestAssured.*;
+import static io.restassured.matcher.RestAssuredMatchers.*;
+import static org.hamcrest.Matchers.*;
+
+import org.testng.annotations.Test;
+
+import AnanayMahajan.Payload.users;
+import io.restassured.http.ContentType;
+import io.restassured.response.Response;
+
+public class userEndPoints2 {
+	@Test
+	public void postRequestUsingPojoClass() {
+		users newUser=new users("Ananay Mahajan","Software Engineer");
+		 given()
+			.contentType(ContentType.JSON)
+			.body(newUser)
+		.when()
+			.post(Routes.post_url)
+		.then()
+			.statusCode(201);
+	}
+}

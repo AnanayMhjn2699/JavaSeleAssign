@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-02T18:40:06 IST" name="Default suite" finished-at="2024-05-02T18:40:29 IST" duration-ms="23230">
+  <suite started-at="2024-05-03T12:17:54 IST" name="Default suite" finished-at="2024-05-03T12:18:15 IST" duration-ms="21435">
     <groups>
     </groups>
-    <test started-at="2024-05-02T18:40:06 IST" name="Default test" finished-at="2024-05-02T18:40:29 IST" duration-ms="23230">
+    <test started-at="2024-05-03T12:17:54 IST" name="Default test" finished-at="2024-05-03T12:18:15 IST" duration-ms="21435">
       <class name="AnanayMahajan.Tests.Test1">
-        <test-method is-config="true" signature="launchapplication()[pri:0, instance:AnanayMahajan.Tests.Test1@1d2adfbe]" started-at="2024-05-02T18:40:06 IST" name="launchapplication" finished-at="2024-05-02T18:40:19 IST" duration-ms="13034" status="PASS">
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:AnanayMahajan.Tests.Test1@1d2adfbe]" started-at="2024-05-03T12:17:54 IST" name="launchapplication" finished-at="2024-05-03T12:18:05 IST" duration-ms="10879" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchapplication -->
-        <test-method signature="testWorldPopulation1()[pri:0, instance:AnanayMahajan.Tests.Test1@1d2adfbe]" started-at="2024-05-02T18:40:19 IST" name="testWorldPopulation1" finished-at="2024-05-02T18:40:29 IST" duration-ms="10132" status="PASS">
+        <test-method signature="testWorldPopulation1()[pri:0, instance:AnanayMahajan.Tests.Test1@1d2adfbe]" started-at="2024-05-03T12:18:05 IST" name="testWorldPopulation1" finished-at="2024-05-03T12:18:15 IST" duration-ms="10480" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWorldPopulation1 -->

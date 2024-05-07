@@ -1,0 +1,24 @@
+package AnanayMahajan.APIAssignment;
+
+import static io.restassured.RestAssured.*;
+import static io.restassured.matcher.RestAssuredMatchers.*;
+import static org.hamcrest.Matchers.*;
+
+import org.testng.annotations.Test;
+
+import io.restassured.http.ContentType;
+import io.restassured.response.Response;
+
+public class userEndPoints2 {
+	@Test
+	public Response postRequest1() {
+		
+		Response response = given()
+			.contentType(ContentType.JSON)
+			.body()
+		.when()
+			.post(Routes.post_url);
+		
+		return response;
+	}
+}

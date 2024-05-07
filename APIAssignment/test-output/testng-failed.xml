@@ -3,11 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="AnanayMahajan.APIAssignment.userEndPoints">
+      <class name="AnanayMahajan.APIAssignment.userEndPoints2">
         <methods>
-          <include name="postBookDetails"/>
+          <include name="postRequestUsingJson"/>
+          <include name="getReq"/>
+          <include name="updateReq"/>
+          <include name="postRequestUsingPojoClass"/>
+          <include name="postRequestUsingMap"/>
+          <include name="deleteReq"/>
         </methods>
-      </class> <!-- AnanayMahajan.APIAssignment.userEndPoints -->
+      </class> <!-- AnanayMahajan.APIAssignment.userEndPoints2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
